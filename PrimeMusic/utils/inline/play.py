@@ -3,20 +3,18 @@ import random
 from pyrogram.types import InlineKeyboardButton
 
 selections = [
-    "KAZU┅┅┅┅┅┅",
-    "┅KAZU┅┅┅┅┅",
-    "┅┅KAZU┅┅┅┅",
-    "┅┅┅KAZU┅┅┅",
-    "┅┅┅┅KAZU┅┅",
-    "┅┅┅┅┅KAZU┅",
-    "┅┅┅┅┅┅KAZU",
-    "KAZU┅┅┅┅┅┅",
-    "┅KAZU┅┅┅┅┅",
-    "┅┅KAZU┅┅┅┅",
-    "┅┅┅KAZU┅┅┅",
-    "┅┅┅┅KAZU┅┅",
-    "┅┅┅┅┅KAZU┅",
-    "┅┅┅┅┅┅KAZU",
+    "◯───────────",
+    "─◯──────────",
+    "──◯─────────",
+    "───◯────────",
+    "────◯───────",
+    "─────◯──────",
+    "──────◯─────",
+    "───────◯────",
+    "────────◯───",
+    "─────────◯──",
+    "───────────◯",
+   
 ]
 
 
@@ -35,7 +33,7 @@ def stream_markup_timer(_, videoid, chat_id, played, dur):
         [
             InlineKeyboardButton(
                 text=_["P_C_1"], 
-                url=f"https://t.me/Html12text",
+                url=f"https://t.me/ShutdownBoss",
             ),
             InlineKeyboardButton(
                 text=_["PL_B_3"],
@@ -81,7 +79,7 @@ def stream_markup(_, videoid, chat_id):
         [
             InlineKeyboardButton(
                 text=_["P_C_1"], 
-                url=f"https://t.me/Html12text",
+                url=f"https://t.me/ShutdownBoss",
             ),
             InlineKeyboardButton(
                 text=_["PL_B_3"],
@@ -241,7 +239,7 @@ def panel_markup_1(_, videoid, chat_id):
             ),
             InlineKeyboardButton(
                 text=_["P_C_2"], 
-                url=f"https://link.dana.id/qr/ghmo6i9",
+                url=f"https://t.me/sayadoms",
             ),
         ],
         [
